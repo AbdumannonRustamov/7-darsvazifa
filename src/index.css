@@ -281,3 +281,87 @@ body {
   margin-top: 36px;
   cursor: pointer;
 }
+
+.your-card{
+  background-color: #fff;
+  width: 300px;
+  height: 250px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 30px;
+
+}
+
+.text{
+  font-size: 20px;
+  color: #c7380f;
+  margin-bottom: 50px;
+  font-weight: 600;
+}
+
+.deffault-img{
+  margin-top: 30px;
+  align-items: center;
+  width: 100px;
+  margin-left: 90px;
+}
+
+.p-text{
+  margin-left: 70px;
+  margin-bottom: 20px;
+}
+
+.your-card-2{
+  background-color: #fff;
+  width: 300px;
+  height: 250px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 30px;
+
+}
+
+.text-2{
+font-size: 25px;
+color: #c7380f;
+font-weight: 600;
+}
+
+.product-name{
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 15px;
+}
+.product-price{
+  display: flex;
+  gap: 20px;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.p-color{
+  color: #c7380f;
+  font-weight: 600;
+}
+
+.wrap-card{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.delete-button{
+  width: 22px;
+  height: 22px;
+  border-radius: 50px;
+  color: rgb(138, 136, 136);
+  border: 1px solid rgb(138, 136, 136);
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+} 
+.delete-button:hover{
+  color: rgb(0, 0, 0);
+  border: 1px solid black;
+}
