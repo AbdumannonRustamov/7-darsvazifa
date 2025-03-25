@@ -19,7 +19,7 @@ function AddDessertButton({ id, setProducts }) {
     if (index !== -1) {
       storedItems[index].count = newCount;
     } else {
-      storedItems.push({ id, count: newCount });
+      storedItems.push({ id,count: newCount });
     }
 
     localStorage.setItem("items", JSON.stringify(storedItems));

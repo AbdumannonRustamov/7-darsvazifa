@@ -7,12 +7,10 @@ import { useFetch } from "./hooks/useFetch";
 function App() {
   const { data: desserts, error, isPending } = useFetch("http://localhost:3000/desserts");
 
-  // **LocalStorage'dan mahsulotlarni o‘qib olish va holatga o‘rnatish**
   const [products, setProducts] = useState(() => {
     return JSON.parse(localStorage.getItem("items")) || [];
   });
 
-  // **LocalStorage yangilanganda mahsulotlarni qayta yuklash**
   useEffect(() => {
     const updateProducts = () => {
       setProducts(JSON.parse(localStorage.getItem("items")) || []);
